@@ -1,9 +1,10 @@
-version: "3"
+version: "3.8"
 
-nginx:
-  image: nginx:latest
-  volumes:
-    - "./files:/files"
-    - "./conf:/etc/nginx/conf.d"
-  ports:
-    - "8080:80"
+services: 
+  nginx:
+    image: nginx:latest
+    volumes:
+      - "./files:/files"
+      - "./conf:/etc/nginx/conf.d"
+    ports:
+      - "8080:80"
