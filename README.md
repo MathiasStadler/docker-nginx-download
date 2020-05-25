@@ -45,3 +45,9 @@ code-server --list-extensions
 https://www.pluralsight.com/guides/download-large-files-from-remote-servers-using-nginx-docker
 ```
 
+## test 
+
+```bash
+# http://<serverIp>:<port>/downloads/testFile.txt
+curl http://192.168.178.29:8080/downloads/testFile.txt -O
+```
