@@ -1,4 +1,4 @@
-# docker-nginx-dowload
+# docker-nginx-download
 
 **WIP**
 
