@@ -5,7 +5,7 @@ services:
     image: my/docker-nginx-static-site:latest
     volumes:
       - "./files:/files"
-      - "./nginx.conf:/etc/nginx.conf"
+      - "./nginx.conf:/etc/nginx/nginx.conf"
       # - "./conf:/etc/nginx/conf.d"
 
     ports:
