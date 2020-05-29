@@ -5,6 +5,7 @@ services:
     image: my/docker-nginx-static-site:latest
     volumes:
       - "./files:/files"
+      - "./nginx.conf:/etc/nginx.conf"
       - "./conf:/etc/nginx/conf.d"
     ports:
       - "8080:80"
