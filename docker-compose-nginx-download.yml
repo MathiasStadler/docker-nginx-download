@@ -6,7 +6,7 @@ services:
     volumes:
       - "./files:/files"
       - "./nginx.conf:/etc/nginx.conf"
-      - "./conf:/etc/nginx/conf.d"
-      
+      # - "./conf:/etc/nginx/conf.d"
+
     ports:
       - "8080:80"
