@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   nginx:
-    image: nginx:latest
+    image: my/docker-nginx-static-site:latest
     volumes:
       - "./files:/files"
       - "./conf:/etc/nginx/conf.d"
